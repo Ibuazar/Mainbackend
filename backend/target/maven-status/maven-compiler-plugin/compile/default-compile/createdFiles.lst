@@ -1,0 +1,9 @@
+com\sergio\jwt\backend\entites\Vehicle$VehicleBuilder.class
+com\sergio\jwt\backend\dtos\UserDto$UserDtoBuilder.class
+com\sergio\jwt\backend\entites\Order$OrderBuilder.class
+com\sergio\jwt\backend\dtos\SignUpDto$SignUpDtoBuilder.class
+com\sergio\jwt\backend\dtos\ErrorDto$ErrorDtoBuilder.class
+com\sergio\jwt\backend\entites\User$UserBuilder.class
+com\sergio\jwt\backend\entites\TransportOrders$TransportOrdersBuilder.class
+com\sergio\jwt\backend\mappers\UserMapperImpl.class
+com\sergio\jwt\backend\dtos\CredentialsDto$CredentialsDtoBuilder.class

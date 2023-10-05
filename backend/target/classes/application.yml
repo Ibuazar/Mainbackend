@@ -1,0 +1,22 @@
+security.jwt.token.secret-key: my-secret-key
+
+spring:
+  port : 8080
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://root:qFmb8IradF4GZJHGHQeL@containers-us-west-164.railway.app:6971/railway?sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false
+    username: root
+    password: qFmb8IradF4GZJHGHQeL
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  sql:
+    init:
+      platform: mysql
+      mode: always  
+  servlet:
+      multipart:
+        enabled: true
+        max-file-size: 10MB
+        max-request-size: 11MB
